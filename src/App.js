@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="App">
       <div class="container">
-        <h1>ToDo App</h1>
+        <h1>To Do List</h1>
 
         <div className="top">
           <input 
