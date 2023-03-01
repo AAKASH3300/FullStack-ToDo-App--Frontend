@@ -5,7 +5,9 @@
 
 body {
   margin: 0;
-  background-color: rgb(150, 124, 153);
+  background-image: url('./img/todo1.jpg');
+  background-repeat: no-repeat;
+  background-size :100% 195%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -20,7 +22,7 @@ body {
 }
 
 h1{
-  background-color: rgba(34, 192, 63, 0.627);
+  background-color:#af83e156;
   color: #fff;
   padding: 0.5rem 1.5rem;
   cursor: pointer;
@@ -46,7 +48,7 @@ input{
   border-radius: 10px;
   }
 .add{
-  background-color: rgba(34, 192, 63, 0.627);
+  background-color: #AF83E1;
   color: #fff;
   padding: 0.5rem 1.5rem;
   cursor: pointer;
@@ -57,7 +59,8 @@ input{
 .toDo{
   position: relative;
   margin-top: 1rem;
-  background-color:rgba(34, 192, 63, 0.627);
+  align-content: flex-end;
+  background-color:#af83e156;
   color: #fff;
   padding:1.5rem 3rem;
   border-radius: 20px;
