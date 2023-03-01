@@ -83,3 +83,11 @@ input{
   font-size: medium;
   
 }
+
+@media screen and (max-width: 700px) {
+  .body,.App, .list,.toDo,.top,.text,.body{
+    width:inherit; 
+   
+  }
+  
+}

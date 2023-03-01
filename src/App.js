@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import ToDo from "./components/ToDo";
 import { addToDo, getAllToDo,updateToDo,deleteToDo } from "./utils/HandleApi";
+import './index.css';
 
 function App() {
 
